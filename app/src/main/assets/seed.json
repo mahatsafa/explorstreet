@@ -1,0 +1,31 @@
+{
+  "routes": [
+    {"id":"ijen-run","name":"Ijen Morning Loop","area":"Ijen","sport":"run","km":4.8,"min":36,"climb":24,"quiet":3,"flat":2,"coffee":1,"color":"green","lat":-7.9726,"lng":112.6205,"description":"Inspirasi lari suasana hijau. Permukaan dan akses pedestrian belum diperiksa.","path":"M84 263C107 175 204 235 222 133S354 92 372 173 289 278 187 282 98 302 84 263","start":[84,263]},
+    {"id":"kayu-run","name":"Kayutangan Easy Steps","area":"Kayutangan","sport":"run","km":3.5,"min":29,"climb":12,"quiet":1,"flat":3,"coffee":3,"color":"gold","lat":-7.9797,"lng":112.6304,"description":"Contoh rute pendek dengan inspirasi titik singgah kota. Semua informasi belum diverifikasi.","path":"M90 99C166 63 179 233 267 204S392 245 355 288 190 306 90 99","start":[90,99]},
+    {"id":"sukun-run","name":"Sukun Slow Sunrise","area":"Sukun","sport":"run","km":6.2,"min":49,"climb":19,"quiet":2,"flat":3,"coffee":1,"color":"blue","lat":-8.0010,"lng":112.6170,"description":"Simulasi rute lari bertempo santai dengan variasi elevasi contoh.","path":"M134 269Q75 212 165 137T308 126Q380 189 334 260T134 269","start":[134,269]},
+    {"id":"lowok-bike","name":"Lowokwaru Green Spin","area":"Lowokwaru","sport":"bike","km":8.6,"min":33,"climb":63,"quiet":2,"flat":1,"coffee":2,"color":"blue","lat":-7.9440,"lng":112.6150,"description":"Ilustrasi gowes perkotaan. Tidak menjamin akses legal sepeda ataupun kondisi lalu lintas.","path":"M77 262C65 163 146 93 231 116S394 113 390 187 290 308 180 280 107 304 77 262","start":[77,262]},
+    {"id":"blimbing-bike","name":"Blimbing Coffee Cruise","area":"Blimbing","sport":"bike","km":6.3,"min":26,"climb":30,"quiet":1,"flat":2,"coffee":3,"color":"gold","lat":-7.9470,"lng":112.6460,"description":"Contoh rute sepeda dengan tempat singgah fiktif; harga dan fasilitas belum ada datanya.","path":"M85 202Q137 79 237 140T385 215Q391 305 275 291T85 202","start":[85,202]},
+    {"id":"ijen-bike","name":"Ijen Gentle Ride","area":"Ijen","sport":"bike","km":12.4,"min":54,"climb":77,"quiet":3,"flat":1,"coffee":1,"color":"green","lat":-7.9726,"lng":112.6205,"description":"Ilustrasi gowes jarak lebih jauh. Kondisi jalan dan keselamatan wajib divalidasi sebelum digunakan.","path":"M83 264Q90 113 199 108T388 155Q398 278 289 301T83 264","start":[83,264]}
+  ],
+  "events": [
+    {"id":"e1","title":"Sunday Easy Run","sport":"run","style":"easy","area":"Area publik Ijen","when":"Minggu pagi · ilustrasi","range":"Pace santai / tanpa target","org":"Komunitas Contoh A"},
+    {"id":"e2","title":"Sunrise Pedal Social","sport":"bike","style":"easy","area":"Area publik Lowokwaru","when":"Sabtu pagi · ilustrasi","range":"Gowes santai / tidak balapan","org":"Komunitas Contoh B"},
+    {"id":"e3","title":"Weekend Steady Run","sport":"run","style":"steady","area":"Area publik Kayutangan","when":"Akhir pekan · ilustrasi","range":"Ritme stabil dan sukarela","org":"Komunitas Contoh C"}
+  ],
+  "stops": [
+    {"id":"p1","name":"Kedai Pagi Contoh","area":"Dekat area Ijen (ilustrasi)","price":12000,"bike":true,"perk":"Minuman hangat contoh","offer":"Potongan contoh setelah olahraga","color":"gold"},
+    {"id":"p2","name":"Rehat Daun Studio","area":"Area Lowokwaru (ilustrasi)","price":18000,"bike":true,"perk":"Parkir sepeda belum diverifikasi","offer":"Bonus menu demo","color":"green"},
+    {"id":"p3","name":"Sudut Kopi Fiktif","area":"Area Kayutangan (ilustrasi)","price":10000,"bike":false,"perk":"Tempat duduk contoh","offer":"Promo suasana sore","color":"blue"}
+  ],
+  "feed": [
+    {"id":"f1","author":"Komunitas Contoh A","initial":"A","text":"Gimana kalau minggu ini kita pilih jalur santai yang informasinya sudah diperiksa? Persiapan rute dulu, baru berangkat.","time":"Posting simulasi"},
+    {"id":"f2","author":"Komunitas Contoh B","initial":"B","text":"Gowes bersama bukan soal siapa paling cepat. Pilih titik kumpul umum dan pastikan jalur boleh dilalui sepeda.","time":"Posting simulasi"}
+  ],
+  "navSteps": [
+    ["Titik mulai publik","Awal perjalanan contoh."],
+    ["Bagian jalur pertama","Ilustrasi ruas awal, tanpa instruksi belok."],
+    ["Pemandangan hijau","Jalur dekoratif, belum diverifikasi."],
+    ["Titik istirahat","Periksa fasilitas langsung sebelum mampir."],
+    ["Kembali ke titik publik","Sesi demo selesai di titik awal."]
+  ]
+}
